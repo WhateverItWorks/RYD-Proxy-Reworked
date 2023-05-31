@@ -1,15 +1,17 @@
+version: '3.7'
+
 services:
   tor-proxy:
     image: 1337kavin/alpine-tor:latest
-    restart: unless-stopped
+    restart: always
     environment:
       - tors=15
   ryd-proxy:
     image: 1337kavin/ryd-proxy:latest
-    restart: unless-stopped
+    restart: always
     depends_on:
       - tor-proxy
     environment:
       - PROXY=socks5://tor-proxy:5566
     ports:
-      - "127.0.0.1:3000:3000"
+      - "127.0.0.1:8090:3000"
