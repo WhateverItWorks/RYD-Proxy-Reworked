@@ -10,10 +10,10 @@ IPs are rotated every 2 minutes to avoid rate limiting.
 
 ## Example Request
 
-https://ryd-proxy.kavin.rocks/votes/dQw4w9WgXcQ
+https://ryd-proxy.whateveritworks.org/votes/dQw4w9WgXcQ
 
 ```js
-{"id":"dQw4w9WgXcQ","dateCreated":"2022-04-09T22:01:38.222268Z","likes":14589269,"dislikes":390375,"rating":4.8957585373858015,"viewCount":1232906190,"deleted":false}
+{"id":"dQw4w9WgXcQ","dateCreated":"2022-04-09T22:01:38.222268Z","likes":16428053,"dislikes":439576,"rating":4.895758674796559,"viewCount":1400340226,"deleted":false}
 ```
 
 ## Why
