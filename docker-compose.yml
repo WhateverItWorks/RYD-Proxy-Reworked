@@ -7,6 +7,9 @@ services:
     environment:
       - tors=15
   ryd-proxy:
+    #build:
+      #context: .
+      #dockerfile: Dockerfile
     image: 1337kavin/ryd-proxy:latest
     restart: always
     depends_on:
